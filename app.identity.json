@@ -1,0 +1,9 @@
+{
+  "name": "[APP_NAME]",
+  "slug": "app-slug",
+  "owner": "expo-account-name",
+  "scheme": "app-scheme",
+  "iosBundleIdentifier": "com.company.app",
+  "androidPackage": "com.company.app",
+  "version": "1.0.0"
+}

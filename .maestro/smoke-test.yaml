@@ -1,0 +1,9 @@
+appId: com.company.app
+---
+- launchApp:
+    clearState: true
+- assertVisible:
+    id: home-screen
+- tapOn: Settings
+- assertVisible:
+    id: settings-screen

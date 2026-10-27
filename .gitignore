@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+
+# Expo and generated native projects (Continuous Native Generation)
+.expo/
+dist/
+web-build/
+ios/
+android/
+expo-env.d.ts
+
+# Local environment files (the example remains tracked)
+.env
+.env.*
+!.env.example
+
+# Build and test output
+coverage/
+*.log
+*.tsbuildinfo
+
+# EAS local build artifacts and credentials
+.eas/
+*.jks
+*.key
+*.keystore
+*.p8
+*.p12
+*.pem
+*.pfx
+*.ppk
+*.mobileprovision
+google-services.json
+GoogleService-Info.plist
+service-account*.json
+
+# Local package-manager, network, and shell credentials
+.npmrc
+.netrc
+.envrc
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

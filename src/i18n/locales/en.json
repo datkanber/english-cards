@@ -1,0 +1,70 @@
+{
+  "navigation": {
+    "home": "Home",
+    "settings": "Settings"
+  },
+  "common": {
+    "retry": "Try again"
+  },
+  "home": {
+    "title": "Production-ready foundation",
+    "subtitle": "A small example that proves the app architecture is connected.",
+    "queryTitle": "Local query example",
+    "queryDescription": "This data comes from a local mock service, so no backend is required.",
+    "queryStateLabel": "Example query state",
+    "states": {
+      "loading": "Loading",
+      "empty": "Empty",
+      "error": "Error",
+      "success": "Success"
+    },
+    "loadingLabel": "Loading the example data",
+    "emptyTitle": "Nothing here yet",
+    "emptyMessage": "The example service returned no items.",
+    "errorTitle": "Could not load the example",
+    "errorMessage": "Something went wrong while loading local example data.",
+    "successTitle": "The architecture is working",
+    "formTitle": "Validated form",
+    "formDescription": "Submit the form to see React Hook Form and Zod validation in action.",
+    "nameLabel": "Name",
+    "namePlaceholder": "Enter your name",
+    "nameRequired": "Name is required.",
+    "nameTooShort": "Name must contain at least 2 characters.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "name@example.com",
+    "emailInvalid": "Enter a valid email address.",
+    "submit": "Submit",
+    "submitted": "Thanks, {{name}}. The example form is valid."
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Preferences are stored only on this device.",
+    "appearanceTitle": "Appearance",
+    "themeLabel": "Theme",
+    "themes": {
+      "system": "Use device setting",
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "languageTitle": "Language",
+    "languageLabel": "App language",
+    "languages": {
+      "en": "English",
+      "tr": "Turkish"
+    },
+    "preferencesTitle": "Example preference",
+    "preferenceLabel": "Enable example preference",
+    "preferenceHint": "This non-sensitive value is saved with AsyncStorage.",
+    "hydrating": "Restoring your preferences"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "message": "The page you requested does not exist.",
+    "action": "Return home"
+  },
+  "errors": {
+    "rootTitle": "The app encountered a problem",
+    "rootMessage": "Restart this screen and try again.",
+    "retry": "Restart"
+  }
+}

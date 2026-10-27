@@ -1,0 +1,70 @@
+{
+  "navigation": {
+    "home": "Ana Sayfa",
+    "settings": "Ayarlar"
+  },
+  "common": {
+    "retry": "Tekrar dene"
+  },
+  "home": {
+    "title": "Üretime hazır temel",
+    "subtitle": "Uygulama mimarisinin bağlı olduğunu gösteren küçük bir örnek.",
+    "queryTitle": "Yerel sorgu örneği",
+    "queryDescription": "Bu veri yerel bir örnek servisten gelir; sunucu gerekmez.",
+    "queryStateLabel": "Örnek sorgu durumu",
+    "states": {
+      "loading": "Yükleniyor",
+      "empty": "Boş",
+      "error": "Hata",
+      "success": "Başarılı"
+    },
+    "loadingLabel": "Örnek veriler yükleniyor",
+    "emptyTitle": "Henüz burada bir şey yok",
+    "emptyMessage": "Örnek servis herhangi bir öğe döndürmedi.",
+    "errorTitle": "Örnek yüklenemedi",
+    "errorMessage": "Yerel örnek veriler yüklenirken bir sorun oluştu.",
+    "successTitle": "Mimari çalışıyor",
+    "formTitle": "Doğrulanan form",
+    "formDescription": "React Hook Form ve Zod doğrulamasını görmek için formu gönderin.",
+    "nameLabel": "Ad",
+    "namePlaceholder": "Adınızı girin",
+    "nameRequired": "Ad alanı zorunludur.",
+    "nameTooShort": "Ad en az 2 karakter içermelidir.",
+    "emailLabel": "E-posta",
+    "emailPlaceholder": "ad@ornek.com",
+    "emailInvalid": "Geçerli bir e-posta adresi girin.",
+    "submit": "Gönder",
+    "submitted": "Teşekkürler, {{name}}. Örnek form geçerli."
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "subtitle": "Tercihler yalnızca bu cihazda saklanır.",
+    "appearanceTitle": "Görünüm",
+    "themeLabel": "Tema",
+    "themes": {
+      "system": "Cihaz ayarını kullan",
+      "light": "Açık",
+      "dark": "Koyu"
+    },
+    "languageTitle": "Dil",
+    "languageLabel": "Uygulama dili",
+    "languages": {
+      "en": "İngilizce",
+      "tr": "Türkçe"
+    },
+    "preferencesTitle": "Örnek tercih",
+    "preferenceLabel": "Örnek tercihi etkinleştir",
+    "preferenceHint": "Bu hassas olmayan değer AsyncStorage ile kaydedilir.",
+    "hydrating": "Tercihleriniz geri yükleniyor"
+  },
+  "notFound": {
+    "title": "Sayfa bulunamadı",
+    "message": "İstediğiniz sayfa mevcut değil.",
+    "action": "Ana sayfaya dön"
+  },
+  "errors": {
+    "rootTitle": "Uygulamada bir sorun oluştu",
+    "rootMessage": "Bu ekranı yeniden başlatıp tekrar deneyin.",
+    "retry": "Yeniden başlat"
+  }
+}
